@@ -1,6 +1,6 @@
 require_relative 'VendingMachine'
 
-VM = VendingMachine.new
+vm = VendingMachine.new
 
 puts "💰お金を入れてください💰"
 VM.slot_money
